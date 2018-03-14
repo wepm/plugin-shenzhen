@@ -1,0 +1,12 @@
+<!-- <view wx:for="{{list}}" wx:key="name">
+  <view>{{item.name}}:{{item.price}}</view>
+</view> -->
+<map id="map" longitude="114.038868" latitude="22.560927" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+<scroll-view scroll-x="{{false}}" scroll-y="{{true}}">
+  <view class="intro">
+  深圳市，简称深，别称鹏城，是位于中华人民共和国广东省的都市，同时是副省级计划单列市、经济特区及国家综合配套改革试验区，1979年1月在原宝安县的基础上设立，为中国的证券资本市场中心、以及重要的国际经济中心[6]。深圳全市均划入深圳经济特区范围。南边与香港接壤，北与惠州市、东莞市毗邻。
+  </view>
+  <view class="intro">
+  深圳因改革开放而快速发展，在中国的制度创新、扩大开放等方面承担着试验和示范的重要使命。1980年，中国第一个经济特区——深圳经济特区在此成立[7]。自1999年起，中国国际高新技术成果交易会每年定期在深圳举行。2010年，前海深港现代服务业合作区获中央政府批准成立，将作为深圳与香港合作的先导区。2011年，深圳主办第26届世界大学生夏季运动会[8]。2016年，深圳市生产总值超越广州市成为中国经济总量第三大城市。
+  </view>
+</scroll-view>
